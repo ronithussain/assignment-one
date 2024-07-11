@@ -269,7 +269,7 @@ nav button {
     background: rgba(255, 223, 0, 0.05);
 }
 
-/* __________support-sasion__________ */
+/* __________support-container__________ */
 .support-container {
     width: 1140px;
     margin: 0 auto;
@@ -332,7 +332,6 @@ nav button {
 footer {
     max-width: 1860px;
     height: 120px;
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -345,9 +344,8 @@ footer {
 
 
 footer h3 {
-    margin: 0px 16px;
+    /* margin: 0px 16px; */
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
     margin-top: 10px;
