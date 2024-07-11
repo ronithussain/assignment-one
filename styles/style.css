@@ -19,8 +19,6 @@ nav {
 }
 
 nav h3 {
-    /* width: 114px;
-    height: 34px; */
     font-size: 28px;
     font-weight: 800;
 }
@@ -35,7 +33,7 @@ nav button {
 
 /* ____________banner-section-container___________ */
 .banner-section-container {
-    max-width: 1860px;
+    max-width: 1870px;
     height: 700px;
     background-image: url('../assets/Hero-bg.png');
     background-size: cover;
@@ -330,7 +328,7 @@ nav button {
 
 /* ___________________footer_________________ */
 footer {
-    max-width: 1860px;
+    max-width: 1870px;
     height: 120px;
     display: flex;
     flex-direction: row;
