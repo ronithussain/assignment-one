@@ -137,7 +137,6 @@ nav button {
     width: 950px;
     margin: 0 auto;
     height: 350px;
-
 }
 
 .banner-part {
@@ -146,6 +145,13 @@ nav button {
     padding: 40px;
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+
+#banner-part-two {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 }
 
 .banner-part-text {
@@ -218,15 +224,13 @@ nav button {
 }
 
 .current-flex {
-
     display: flex;
     justify-content: center;
     gap: 15px;
-
 }
 
 .box-container {
-    width: 364px;
+    width: 360px;
     height: 300px;
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
@@ -240,7 +244,7 @@ nav button {
 .box-container h3 {
     color: rgb(13, 19, 33);
     font-size: 24px;
-    margin: 8px 0px;
+    margin-top: 15px;
 }
 
 .box-container p {
@@ -269,7 +273,7 @@ nav button {
 .support-container {
     width: 1140px;
     margin: 0 auto;
-    height: 320px;
+    height: 330px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -278,7 +282,7 @@ nav button {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 64px 48px 64px 48px;
+    padding: 60px 50px 60px 50px;
     border-radius: 16px;
     background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url(Email);
 }
@@ -314,44 +318,44 @@ nav button {
 
 .support-container button {
     width: 120px;
-    height: 58px;
+    height: 57px;
     padding: 17px 20px 17px 20px;
     margin: 0px 16px;
     color: rgb(13, 19, 33);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     border-radius: 8px;
     background: rgb(255, 255, 255);
 }
 
+/* ___________________footer_________________ */
+footer {
+    max-width: 1860px;
+    height: 120px;
 
-
-
-
-
-/* .support-sasion {
-    width: 1140px;
-    margin: 0 auto;
-    margin-top: 150px;
-    height: 314px;
-    border: 3px solid darkmagenta;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 125px 32px 135px;
+    margin-top: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
 }
 
-.input-section {
-    /* width: 548px;
-    margin: 0 auto;
-    height: 57px;
-    text-align: center; */
-display: flex;
-gap: 20px;
-flex-direction: row;
-justify-content: center;
-align-items: center;
+
+footer h3 {
+    margin: 0px 16px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
 }
 
-.input-section .input-text {
-    width: 548px;
-    height: 57px;
+.footer-icon a img {
+    width: 36px;
+    height: 36px;
+    margin-right: 25px;
+    margin-top: 10px;
 }
-
-*/
